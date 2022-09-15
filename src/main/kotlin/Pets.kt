@@ -1,7 +1,7 @@
 abstract class Pet(val name: String, var age: Int) {
     abstract fun sound()
 
-    public fun happyBirthday() {
+    fun happyBirthday() {
         sound()
         age += 1
     }
